@@ -18,7 +18,7 @@ def createLinks(directory):
     f = open('index.html', 'w')
     f.write(R[0])
     f.write('<p>\n')
-    f.write('<A HREF = "https://msveiven.github.io' + str(PathLink) + '/' + directory + '">' + directory.split('.htm')[0] + '</A>')
+    f.write('<font size="4"><A HREF = "https://msveiven.github.io' + str(PathLink) + '/' + directory + '">' + directory.split('.htm')[0] + '</A> </font>')
     f.write('</p>\n')
     f.write('</body>\n')
     f.write('</html>\n')
