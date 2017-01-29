@@ -45,5 +45,6 @@ path = currentPath+"/*.htm"
 for fname in glob.glob(path):
     if (fname != 'index.htm'):
         fname = fname.split("/")
+        print(fname)
         createLinks(fname[len(fname)-1])
 
