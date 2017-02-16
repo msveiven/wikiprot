@@ -19,4 +19,4 @@ Instructions on creating the wikiprotocols website:
 Note: the repository must be in a GitHub folder on your desktop
 Tip: When updating the site, remove all of the files except for the html files that contain the tables you have already 
 made and the xml files that you want to make new tables with. Removing the xml files that already have tables will save time when 
-running the webpageCreator.py script
+running the webpageCreator.py script.
