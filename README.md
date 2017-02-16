@@ -1,6 +1,7 @@
 # wikiprot
 
 Instructions on creating the wikiprotocols website:
+
 1. Clone this repository to desktop
 
 2. To begin using Protparser, you need to open a terminal window and define an environment variable called WIKIPROTPATH which is set to the location Protparser was installed, and then source the setup script. Sourcing Protparser needs to be done every time you open a new terminal window. Or, you can add the two lines below to your default setup file (.bashrc or .cshrc) and Protparser will be sourced automatically everytime you open a new window. You can set this enviornmental variable equal to whichever directory you downloaded wikiprot files and scripts to. Below is an example of how this can be done if you downloaded wikiprot to /usr/local:
